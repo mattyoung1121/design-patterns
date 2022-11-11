@@ -17,8 +17,8 @@
 		A3C8D8C2291C1750000704AF /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8D8C0291C1750000704AF /* Protocols.swift */; };
 		A3C8D8C4291C1855000704AF /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8D8C3291C1855000704AF /* Classes.swift */; };
 		A3C8D8C5291C1855000704AF /* Classes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8D8C3291C1855000704AF /* Classes.swift */; };
-		A3C8D8C7291C3B8B000704AF /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8D8C6291C3B8B000704AF /* DrinkView.swift */; };
-		A3C8D8C8291C3B8B000704AF /* DrinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8D8C6291C3B8B000704AF /* DrinkView.swift */; };
+		A3C8D8C7291C3B8B000704AF /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8D8C6291C3B8B000704AF /* OrderView.swift */; };
+		A3C8D8C8291C3B8B000704AF /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C8D8C6291C3B8B000704AF /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +30,7 @@
 		A3C8D8B1291C1735000704AF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		A3C8D8C0291C1750000704AF /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
 		A3C8D8C3291C1855000704AF /* Classes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classes.swift; sourceTree = "<group>"; };
-		A3C8D8C6291C3B8B000704AF /* DrinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkView.swift; sourceTree = "<group>"; };
+		A3C8D8C6291C3B8B000704AF /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				A3C8D8A4291C1735000704AF /* Assets.xcassets */,
 				A3C8D8C0291C1750000704AF /* Protocols.swift */,
 				A3C8D8C3291C1855000704AF /* Classes.swift */,
-				A3C8D8C6291C3B8B000704AF /* DrinkView.swift */,
+				A3C8D8C6291C3B8B000704AF /* OrderView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -191,7 +191,7 @@
 				A3C8D8B4291C1735000704AF /* ContentView.swift in Sources */,
 				A3C8D8B2291C1735000704AF /* Decorator_PatternApp.swift in Sources */,
 				A3C8D8C4291C1855000704AF /* Classes.swift in Sources */,
-				A3C8D8C7291C3B8B000704AF /* DrinkView.swift in Sources */,
+				A3C8D8C7291C3B8B000704AF /* OrderView.swift in Sources */,
 				A3C8D8C1291C1750000704AF /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -203,7 +203,7 @@
 				A3C8D8B5291C1735000704AF /* ContentView.swift in Sources */,
 				A3C8D8B3291C1735000704AF /* Decorator_PatternApp.swift in Sources */,
 				A3C8D8C5291C1855000704AF /* Classes.swift in Sources */,
-				A3C8D8C8291C3B8B000704AF /* DrinkView.swift in Sources */,
+				A3C8D8C8291C3B8B000704AF /* OrderView.swift in Sources */,
 				A3C8D8C2291C1750000704AF /* Protocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct DrinkView: View {
+struct OrderView: View {
     
     let name: String
     let ingredients: [String]
@@ -47,8 +47,8 @@ struct DrinkView: View {
     }
 }
 
-struct DrinkView_Previews: PreviewProvider {
+struct OrderView_Previews: PreviewProvider {
     static var previews: some View {
-        DrinkView(name: "House Blend", ingredients: ["Water", "Coffee"], cost: 0.89)
+        OrderView(name: "House Blend", ingredients: ["Water", "Coffee"], cost: 0.89)
     }
 }

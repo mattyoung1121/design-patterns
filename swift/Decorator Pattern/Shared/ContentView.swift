@@ -41,7 +41,7 @@ struct ContentView: View {
                                 newDrink = Espresso()
                             }
                         }
-                        .frame(width: .infinity, height: 280)
+                        .frame(height: 280)
                         
                         List {
                             Text("Condiments:")
@@ -63,9 +63,9 @@ struct ContentView: View {
                                 newDrink = Whip(beverage: newDrink)
                             }
                         }
-                        .frame(width: .infinity, height: 310)
+                        .frame(height: 310)
                         
-                        DrinkView(name: newDrink.name, ingredients: newDrink.ingredients, cost: newDrink.cost)
+                        OrderView(name: newDrink.name, ingredients: newDrink.ingredients, cost: newDrink.cost)
                         
                         Spacer()
                     }
