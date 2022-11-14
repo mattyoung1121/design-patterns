@@ -1,9 +1,4 @@
 class Beverage {
-  constructor() {
-    this.description = "";
-    this.cost = 0.0;
-  }
-
   getDescription() {
     return this.description;
   }
@@ -17,16 +12,6 @@ class CondimentDecorator extends Beverage {
   constructor(beverage) {
     super();
     this.beverage = beverage;
-    this.description = "";
-    this.cost = 0.0;
-  }
-
-  getDescription() {
-    return this.description;
-  }
-
-  getCost() {
-    return this.cost;
   }
 }
 
@@ -42,11 +27,11 @@ class DarkRoast extends Beverage {
 }
 
 class Decaf extends Beverage {
-  description = "Amazingcoffee, with no caffeine";
+  description = "Amazing coffee, with no caffeine";
   cost = 1.05;
 }
 
-class Espresso extends Beverage {
+class Espresso {
   description = "A double shot of our famous strong coffee";
   cost = 1.99;
 }
@@ -72,11 +57,13 @@ class Whip extends CondimentDecorator {
   cost = this.beverage.getCost() + 0.1;
 }
 
-let newDrink = new Espresso();
-console.log(newDrink.getDescription(), `- $${newDrink.getCost()}`);
+// let newDrink = new Espresso();
+// console.log(newDrink.getDescription(), `- $${newDrink.getCost()}`);
 
-newDrink = new SteamedMilk(newDrink);
-console.log(newDrink.getDescription(), `$${newDrink.getCost()}`);
+// newDrink = new SteamedMilk(newDrink);
+// console.log(newDrink.getDescription(), `$${newDrink.getCost()}`);
 
-newDrink = new Whip(newDrink);
-console.log(newDrink.getDescription(), `$${newDrink.getCost()}`);
+// newDrink = new Whip(newDrink);
+// console.log(newDrink.getDescription(), `$${newDrink.getCost()}`);
+
+new Espresso().logDescription();
