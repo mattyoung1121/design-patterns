@@ -31,7 +31,7 @@ class Decaf extends Beverage {
   cost = 1.05;
 }
 
-class Espresso {
+class Espresso extends Beverage {
   description = "A double shot of our famous strong coffee";
   cost = 1.99;
 }
@@ -39,31 +39,31 @@ class Espresso {
 // Condiments
 class SteamedMilk extends CondimentDecorator {
   description = `${this.beverage.description}, Steamed Milk`;
-  cost = this.beverage.getCost() + 0.1;
+  cost = this.beverage.cost + 0.1;
 }
 
 class Mocha extends CondimentDecorator {
   description = `${this.beverage.description}, Mocha`;
-  cost = this.beverage.getCost() + 0.2;
+  cost = this.beverage.cost + 0.2;
 }
 
 class Soy extends CondimentDecorator {
   description = `${this.beverage.description}, Soy`;
-  cost = this.beverage.getCost() + 0.15;
+  cost = this.beverage.cost + 0.15;
 }
 
 class Whip extends CondimentDecorator {
   description = `${this.beverage.description}, Whip`;
-  cost = this.beverage.getCost() + 0.1;
+  cost = this.beverage.cost + 0.1;
 }
 
-// let newDrink = new Espresso();
-// console.log(newDrink.getDescription(), `- $${newDrink.getCost()}`);
-
-// newDrink = new SteamedMilk(newDrink);
-// console.log(newDrink.getDescription(), `$${newDrink.getCost()}`);
-
-// newDrink = new Whip(newDrink);
-// console.log(newDrink.getDescription(), `$${newDrink.getCost()}`);
-
-new Espresso().logDescription();
+export {
+  HouseBlend,
+  DarkRoast,
+  Decaf,
+  Espresso,
+  SteamedMilk,
+  Mocha,
+  Soy,
+  Whip,
+};
